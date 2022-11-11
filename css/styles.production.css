@@ -234,15 +234,6 @@ li.active {
 }
 
 
-/* .curriculum-vitae {
-  display: block;
-  margin: 0 auto;
-  margin-top: 60px;
-  text-align: justify;
-  font-size: 1.2em;
-  max-width: 70%;
-} */
-
 .sidebar {
   width: 30%;
   height: 100%;
@@ -252,7 +243,7 @@ li.active {
   color: white;
   text-align: justify;
   margin-right: 48px;
-  padding-bottom: 200px;
+  padding-bottom: 260px;
 }
 
 .cv-main {
