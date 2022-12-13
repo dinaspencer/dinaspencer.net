@@ -5,11 +5,11 @@
 <meta name="description" content="Dina Spencer is a front-end developer based in Spain."/>
 <meta name="keywords" content="front end developer based in Spain"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro&display=swap" rel="stylesheet">
  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
-  <title>Dina Spencer: CV</title>
+  <title>Dina Spencer: Portfolio</title>
 </head>
 <body>
 <!---   NAV MENU  --->
@@ -47,66 +47,130 @@
 </div>
 </nav>
 
-<div id="libertas">
-
-    <h3>Interactive Materials: JavaScript and PHP</h3>
-
-<div class="buttons-bottom">
-<a href="english.html"><button class="contactar">English Activities</button></a>
-
-</div>
-<br>
-<br>
-<hr>
-<br>
-<br>
-
-<h3>Website Building: Matthew Serna Therapy</h3>
-
-<p>Matthew Serna is a psychotherapist in the San Francisco Bay Area and was looking for a simple site to showcase his specialty areas and let clients easily schedule a consultation.</p>
-
-<p>Considering the target users, I chose colors that are muted, yet welcoming. The layout is a one-page resumé plus a scheduling and policy page.</p>
-
-<p>I chose a WordPress theme with preset functions that would make the user experience smoother. I used CodeEmbed to insert JavaScript in order to integrate the Calendly scheduling interface. <a href="https://matthewsernatherapy.com" target="_blank">Matthew Serna Therapy</a> is a responsive site with two clear ways to schedule a consultation, as well as get in touch with Matthew.</p>
-
-
-
-<div class="libertas-photos">
-
-	<img src="img/serna-1.png" class="" alt="desktop-site" width="550">
-	<img src="img/serna-2.jpg" class="" alt="mobile-site" width="250">
-
-</div>
-<br>
-<br>
-<hr>
-<br>
-<br>
-
-	<h3>Website Building: Libertas Abogados</h3>
-
-<p>Libertas Abogados is a law firm in Bilbao, Spain which was looking to attract new clients.</p>
-
-<p>First, I analyzed the existing site and found it was very wordy, without clear contact info, with out of date email addresses and not many graphics.</p>
-
-<p>I asked one of the firm partners what potential clients of a law firm want, and found they look for easy contact information and a general idea of their specialties. I visualized a clean, simple layout with basic summaries of their offerings and clear buttons to contact the firm.</p>
-
-<p>I sketched out a few site ideas on paper, then took those ideas to Sketch & InVision to flesh them out.  I asked for feedback from people who don’t know the company, and their response was that some of the buttons could be better arranged, but the overall layout was easy to follow and attractive.</p>
-
-<p>With those revisions I undertook the final coding in HTML, CSS, JavaScript and PHP. <a href="https://libertasabogados.net" target="_blank">The final product</a> is a mobile-responsive, clean design with icons and bold buttons.</p>
-
-<p>In addition, I added the firm's office to Google Business which put them squarely on the map. </p>
-
-
-<div class="libertas-photos">
-
-	<img src="img/libertas-draw2.jpg" class="drawing" alt="bullet journal sketch" width="300">
-	<img src="img/libertas-wireframe.png" class="wireframe" alt="invision mockup" width="400">
-	<img src="img/libertas-final.png" class="final-site" alt="libertas abogados website final" width="800">
-
-</div>
+<!-- Grid -->
+<div class="container-fluid text-center">
+  <div class="row">
+  <div class="portfolio-cover project-1 col-md-6 col-sm-12 p-3">
+    <h3 class="pt-5">English App</h3>
+    <p>React, JavaScript, HTML, CSS</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalOne">
+      Details
+    </button>
+    <!-- <a href="">GitHub</a>
+    <a href="">Link</a> -->
+  </div>
+  <div class="portfolio-cover project-2 col-md-6 col-sm-12 p-3 ">
+    <h3 class="pt-5">Libertas Abogados</h3>
+    <p>JavaScript, HTML, CSS, PHP</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalTwo">
+      Details
+    </button>
+  </div>
+  <div class="portfolio-cover project-3 col-md-6 col-sm-12 p-3 ">
+    <h3 class="pt-5">Matthew Serna Therapy</h3>
+    <p>WordPress, HTML, CSS, Calendly</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalThree">
+      Details</button>
+  </div>
+  <div class="portfolio-cover project-4 col-md-6 col-sm-12 p-3 ">
+    <h3 class="pt-5">PokeDex App</h3>
+    <p>API, JavaScript, HTML, CSS, Bootstrap</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalFour">
+      Details</button>
+  </div>
+  
 </div>
 
+<!-- MODALS -->
+
+<div class="modal fade" id="portfolioModalOne" tabindex="-1" aria-labelledby="portfolioModalOne" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel"><strong>English App</strong></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>I created an interactive flashcard app for English learners using React. Reusable components populate with JSON data on clickable cards that flip from one side to another. Cards are set and flipped with useState. The final project is deployed and hosted on Netlify.</p>
+        <img src="img/english-phone-1.png" width="140">
+        <img src="img/english-phone-2.png" width="140">
+      </div>
+      <div class="modal-footer">
+        <a href="https://dinaspencer-englishapp.netlify.app/" target="_blank"><button type="button" class="btn btn-primary">Live Site</button></a>
+        <a href="https://github.com/dinaspencer/english-app/" target="_blank"><button type="button" class="btn btn-dark">Code on GitHub</button></a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="portfolioModalTwo" tabindex="-1" aria-labelledby="portfolioModalTwo" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><strong>Libertas Abogados</strong></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Libertas Abogados is a law firm in Bilbao, Spain which was looking to attract new clients. First, I analyzed the existing site and found it was very wordy, without clear contact info, with out of date email addresses and not many graphics. I sketched out a few site ideas on paper, then took those ideas to Sketch & InVision to flesh them out. After receiving feedback and making revisions, I undertook the final coding in HTML, CSS, JavaScript and PHP. </p>
+        <img src="img/libertas-wireframe.png" width="200">
+        <img src="img/libertas-screen.png" width="200">
+      </div>
+      <div class="modal-footer">
+        <a href="https://libertasabogados.net" target="_blank"><button type="button" class="btn btn-primary">Live Site</button></a>
+        <a href="https://github.com/dinaspencer/libertas-abogados" target="_blank"><button type="button" class="btn btn-dark">Code on GitHub</button></a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="portfolioModalThree" tabindex="-1" aria-labelledby="portfolioModalThree" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><strong>Matthew Serna Therapy</strong></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Matthew Serna is a psychotherapist in the San Francisco Bay Area and was looking for a simple site to showcase his specialty areas and let clients easily schedule a consultation. Considering the target users, I chose colors that are muted, yet welcoming. The layout is a one-page resumé plus a scheduling and policy page. I chose to use WordPress for its strengths in SEO and smooth user experience, hand-tweaking some CSS elements. I used CodeEmbed to insert JavaScript in order to integrate the Calendly scheduling interface. The final product is a responsive site with two clear ways to schedule a consultation as well as get in touch with Matthew.</p>
+        <img src="img/serna-screen.png" width="200">
+        <img src="img/serna-2.jpg" width="200">
+      </div>
+      <div class="modal-footer">
+        <a href="https://matthewsernatherapy.com" target="_blank"><button type="button" class="btn btn-primary">Live Site</button></a>
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="portfolioModalFour" tabindex="-1" aria-labelledby="portfolioModalFour" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><strong>Pokedex</strong></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Pokedex is a list of Pokemon characters dynamically populated by loading data from an external API. The Pokemon list is populated dynamically in JS. Upon clicking each button, information about each Pokemon appears in a modal. The Bootstrap framework is used for nav bar, modal and buttons. Code is formatted with ESLint and Prettier to ensure it's error-free. The final project is hosted on GitHub Pages.</p>
+        <img src="img/pokedex-screen.png" width="200">
+        <img src="img/pokedex-screen-2.png" width="200">
+      </div>
+      <div class="modal-footer">
+        <a href="https://dinaspencer.github.io/simple-js-app/" target="_blank"><button type="button" class="btn btn-primary">Live Site</button></a>
+        <a href="https://github.com/dinaspencer/simple-js-app" target="_blank"><button type="button" class="btn btn-dark">Code on GitHub</button></a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -114,8 +178,8 @@
 	<h4>©2022 Dina Spencer</h4>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

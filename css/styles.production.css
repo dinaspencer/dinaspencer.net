@@ -315,59 +315,67 @@ button.contactar a {
 
 /* ******** WORK *********** */
 
-#libertas {
-  padding: 60px;
-  text-align: justify;
+.portfolio-cover {
+  background-color:rgba(46, 61, 73, 0.5); 
+  padding: 15px;
+  border-radius: 2px;
+  border: 3px solid white;
+  height: 400px;
+  -webkit-transition: 500ms linear;
+  -o-transition: 500ms linear;
+  transition: 500ms linear;
 }
 
-.libertas-photos {
-  max-width: 90%;
-  margin-left: 100px;
-}
-
-.drawing,
-.wireframe,
-.final-site {
-  padding-top: 20px;
-  max-width: 90%;
-}
-
-.english {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
-  margin-top: 100px;
-  clear: both;
-}
-
-.button-english {
-  width: 220px;
-  height: 80px;
-  border: none;
-  border-radius: 8px;
-  background-color: #c47db7;
--webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 1.3em;
-  font-weight: bold;
-  color: white;
-  opacity: none;
+.portfolio-cover:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0.8;
   cursor: pointer;
-  margin-left: 30px;
-  margin-bottom: 40px;
 }
 
-.button-english:hover, .button-english:focus {
-  opacity: 0.5;
+.project-1 {
+      height: 400px;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/english-screen.png);
+      background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/english-screen.png);
+      background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/english-screen.png);
+      background-repeat:no-repeat;
+      background-size: cover;
 }
 
-#topic-display, #question-display, #phrasalverb-display, #quote-display {
-  margin-left: 50px;
-  font-size: 130%;
-  font-weight: bold;
-  padding: 30px;
+.project-2 {
+  height: 400px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/libertas-final.png);
+  background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/libertas-final.png);
+  background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/libertas-final.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
 
+.project-3 {
+  height: 400px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/serna-1.png);
+  background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/serna-1.png);
+  background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/serna-1.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.project-4 {
+  height: 400px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/pokedex-large.png);
+  background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/pokedex-large.png);
+  background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/pokedex-large.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.modal-dialog {
+  border-radius: 0;
+}
+
+.modal-header {
+  border: none;
 }
 
 .menu-closed {
@@ -375,33 +383,6 @@ button.contactar a {
 }
 
 
-#english-presentation, #english-topics, #english-questions, #english-phrasalverbs, #english-email {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-fieldset {
-    border: none;
-    font-family: "Source Sans Pro", sans-serif;
-
-}
-
-#email, #human {
-    width: 300px;
-    border: 2px solid rgb(78, 76, 76);
-    margin-bottom: 40px;
-    padding: 18px;
-}
-
-textarea {
-    width: 300px;
-    border: 2px solid rgb(78, 76, 76);
-    height: 260px;
-    padding: 18px;
-    margin-bottom: 40px;
-    resize: vertical;
-    font-family: "Source Sans Pro",sans-serif;
-}
 
 
 
