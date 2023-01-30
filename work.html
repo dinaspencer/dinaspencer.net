@@ -15,7 +15,10 @@
 <!---   NAV MENU  --->
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-  <a class="navbar-brand" href="#">dina spencer</a>
+    <div class="navheading">
+      <a class="navbar-brand" href="index.html">dina spencer</a>
+      <h4>Portfolio</h4>
+        </div>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -50,32 +53,39 @@
 <!-- Grid -->
 <div class="container-fluid text-center">
   <div class="row">
-  <div class="portfolio-cover project-1 col-md-6 col-sm-12 p-3">
+    <div class="portfolio-cover project-1 col-md-6 col-sm-12 p-3">
+      <h3 class="pt-5">Fertility Calculator</h3>
+      <p>JavaScript, jQuery, HTML, CSS</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalOne">
+        Details
+      </button>
+      </div>
+  <div class="portfolio-cover project-2 col-md-6 col-sm-12 p-3">
     <h3 class="pt-5">English App</h3>
     <p>React, JavaScript, HTML, CSS</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalOne">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalTwo">
       Details
     </button>
     <!-- <a href="">GitHub</a>
     <a href="">Link</a> -->
   </div>
-  <div class="portfolio-cover project-2 col-md-6 col-sm-12 p-3 ">
+  <div class="portfolio-cover project-3 col-md-6 col-sm-12 p-3 ">
     <h3 class="pt-5">Libertas Abogados</h3>
     <p>JavaScript, HTML, CSS, PHP</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalTwo">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalThree">
       Details
     </button>
   </div>
-  <div class="portfolio-cover project-3 col-md-6 col-sm-12 p-3 ">
+  <div class="portfolio-cover project-4 col-md-6 col-sm-12 p-3 ">
     <h3 class="pt-5">Matthew Serna Therapy</h3>
     <p>WordPress, HTML, CSS, Calendly</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalThree">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalFour">
       Details</button>
   </div>
-  <div class="portfolio-cover project-4 col-md-6 col-sm-12 p-3 ">
+  <div class="portfolio-cover project-5 col-md-6 col-sm-12 p-3 ">
     <h3 class="pt-5">PokeDex App</h3>
     <p>API, JavaScript, HTML, CSS, Bootstrap</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalFour">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModalFive">
       Details</button>
   </div>
   
@@ -84,6 +94,28 @@
 <!-- MODALS -->
 
 <div class="modal fade" id="portfolioModalOne" tabindex="-1" aria-labelledby="portfolioModalOne" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel"><strong>Fertility Calculator</strong></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>As part of a small team, I followed design specifications to create a calculator to predict women's fertile days and possible pregnancy due dates. I used HTML, CSS and JavaScript/jQuery for the basic design. For the calendar, my colleague and I worked together to implement jQuery UI DatePicker and customized it with highly detailed CSS and jQuery. The calculator is live on Spanish website serpadres.es</p>
+        <img src="img/fertility-1.png" width="300">
+        <img src="img/fertility-2.png" width="140">
+      </div>
+      <div class="modal-footer">
+        <a href="https://www.serpadres.es/calculadora-fertilidad.html" target="_blank"><button type="button" class="btn btn-primary">Live Site</button></a>
+        <a href="https://github.com/dinaspencer/calculadora-fertilidad" target="_blank"><button type="button" class="btn btn-dark">Code on GitHub</button></a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="portfolioModalTwo" tabindex="-1" aria-labelledby="portfolioModalTwo" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -106,7 +138,7 @@
 </div>
 
 
-<div class="modal fade" id="portfolioModalTwo" tabindex="-1" aria-labelledby="portfolioModalTwo" aria-hidden="true">
+<div class="modal fade" id="portfolioModalThree" tabindex="-1" aria-labelledby="portfolioModalThree" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -128,7 +160,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="portfolioModalThree" tabindex="-1" aria-labelledby="portfolioModalThree" aria-hidden="true">
+<div class="modal fade" id="portfolioModalFour" tabindex="-1" aria-labelledby="portfolioModalFour" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -150,7 +182,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="portfolioModalFour" tabindex="-1" aria-labelledby="portfolioModalFour" aria-hidden="true">
+<div class="modal fade" id="portfolioModalFive" tabindex="-1" aria-labelledby="portfolioModalFive" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
