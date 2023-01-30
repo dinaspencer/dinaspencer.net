@@ -336,14 +336,23 @@ button.contactar a {
 
 .project-1 {
       height: 400px;
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/english-screen.png);
-      background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/english-screen.png);
-      background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/english-screen.png);
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/fertility-screen.png);
+      background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/fertility-screen.png);
+      background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/fertility-screen.png);
       background-repeat:no-repeat;
       background-size: cover;
 }
 
 .project-2 {
+  height: 400px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/english-screen.png);
+  background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/english-screen.png);
+  background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/english-screen.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.project-3 {
   height: 400px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/libertas-final.png);
   background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/libertas-final.png);
@@ -352,20 +361,11 @@ button.contactar a {
   background-size: cover;
 }
 
-.project-3 {
+.project-4 {
   height: 400px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/serna-1.png);
   background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/serna-1.png);
   background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/serna-1.png);
-  background-repeat:no-repeat;
-  background-size: cover;
-}
-
-.project-4 {
-  height: 400px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/pokedex-large.png);
-  background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/pokedex-large.png);
-  background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/pokedex-large.png);
   background-repeat:no-repeat;
   background-size: cover;
 }
