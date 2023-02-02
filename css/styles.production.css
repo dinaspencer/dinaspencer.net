@@ -379,6 +379,15 @@ button.contactar a {
   background-size: cover;
 }
 
+.project-6 {
+  height: 400px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255 255 255 / 54%)), to(rgba(74, 154, 189, 0.99))), url(../img/email-screen.png);
+  background: -o-linear-gradient(bottom, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/email-screen.png);
+  background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(74, 154, 189, 0.99)), url(../img/email-screen.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
 .modal-dialog {
   border-radius: 0;
 }
