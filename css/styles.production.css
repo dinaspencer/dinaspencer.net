@@ -47,6 +47,7 @@ p {
   align-content: center;
   justify-content: center;
   margin: 0 auto;
+  padding: 48px;
 }
 
 .homepage h2 {
@@ -405,7 +406,7 @@ button.contactar a {
 
 
 /* ******* PHOTOGRAPHY ****** */
-.row {
+.row-photo {
   padding: 12px;
   margin-top: 24px;
 }
@@ -416,7 +417,11 @@ button.contactar a {
 
 
 @media screen and (max-width: 576px){
-
+  .homepage {
+    padding: 16px;
+    margin-left: 32px!important;  
+    overflow: hidden;
+}
 
   .homepage h1 {
     padding-top: 16px;
@@ -567,6 +572,10 @@ button.contactar a {
 @media (min-width: 768px) {
   .hide {
     display: none;
+  }
+
+  .homepage {
+    padding: 60px;
   }
 
 }
