@@ -560,7 +560,8 @@ button.contactar a {
       display: grid;
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      max-width: 90%;
+      max-width: 100%;
+      font-size: 96%;
     }
 
     .about-bio img {
