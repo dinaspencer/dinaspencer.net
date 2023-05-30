@@ -402,9 +402,33 @@ button.contactar a {
   display: none;
 }
 
+.english {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+  margin-top: 120px;
+}
 
+button.button-english {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+background-color: #7db7c4;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+  opacity: none;
+  cursor: pointer;
+  margin: 24px;
+}
 
-
+.section-display {
+  margin-bottom: 48px;
+}
 
 /* ******* PHOTOGRAPHY ****** */
 .row-photo {
